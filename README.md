@@ -7,5 +7,5 @@ https://github.com/ubuntu/yaru
 extension based on Dash to dock   
 https://github.com/micheleg/dash-to-dock
   
-Installing Dash to dock cosmic is recommended.   
+Installing Dash to dock cosmic or modifying Ubuntu dock is very fun.   
 If hide top bar extension is installed, the attached extension file can fix the margin.  
