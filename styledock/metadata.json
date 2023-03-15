@@ -1,0 +1,8 @@
+{
+  "name": "Style Dock",
+  "description": "This can style ubuntu dock. it is generated with _stylesheet.scss file in Dash to Dock repository. https://github.com/micheleg/dash-to-dock",
+  "uuid": "styledock",
+  "shell-version": [
+    "40", "41", "42", "43"
+  ]
+}
