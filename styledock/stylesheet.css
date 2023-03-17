@@ -679,9 +679,9 @@
     padding-left: 0;
     padding-right: 0; }
     #dashtodockContainer.left.extended #dash #dashtodockDashContainer > :first-child .show-apps {
-      padding-top: 40px; }
+      padding-top: 44px; }
     #dashtodockContainer.left.extended #dash #dashtodockDashContainer #dashtodockDashScrollview:first-child {
-      padding-top: 40px; }
+      padding-top: 44px; }
     #dashtodockContainer.left.extended #dash #dashtodockDashContainer > :last-child .show-apps {
       padding-bottom: 8px; }
     #dashtodockContainer.left.extended #dash #dashtodockDashContainer #dashtodockDashScrollview:last-child {
@@ -747,9 +747,9 @@
     padding-left: 0;
     padding-right: 0; }
     #dashtodockContainer.left.extended.shrink #dash #dashtodockDashContainer > :first-child .show-apps {
-      padding-top: 38px; }
+      padding-top: 42px; }
     #dashtodockContainer.left.extended.shrink #dash #dashtodockDashContainer #dashtodockDashScrollview:first-child {
-      padding-top: 38px; }
+      padding-top: 42px; }
     #dashtodockContainer.left.extended.shrink #dash #dashtodockDashContainer > :last-child .show-apps {
       padding-bottom: 6px; }
     #dashtodockContainer.left.extended.shrink #dash #dashtodockDashContainer #dashtodockDashScrollview:last-child {
@@ -942,9 +942,9 @@
     padding-right: 0;
     padding-left: 0; }
     #dashtodockContainer.right.extended #dash #dashtodockDashContainer > :first-child .show-apps {
-      padding-top: 40px; }
+      padding-top: 44px; }
     #dashtodockContainer.right.extended #dash #dashtodockDashContainer #dashtodockDashScrollview:first-child {
-      padding-top: 40px; }
+      padding-top: 44px; }
     #dashtodockContainer.right.extended #dash #dashtodockDashContainer > :last-child .show-apps {
       padding-bottom: 8px; }
     #dashtodockContainer.right.extended #dash #dashtodockDashContainer #dashtodockDashScrollview:last-child {
@@ -1010,9 +1010,9 @@
     padding-right: 0;
     padding-left: 0; }
     #dashtodockContainer.right.extended.shrink #dash #dashtodockDashContainer > :first-child .show-apps {
-      padding-top: 38px; }
+      padding-top: 42px; }
     #dashtodockContainer.right.extended.shrink #dash #dashtodockDashContainer #dashtodockDashScrollview:first-child {
-      padding-top: 38px; }
+      padding-top: 42px; }
     #dashtodockContainer.right.extended.shrink #dash #dashtodockDashContainer > :last-child .show-apps {
       padding-bottom: 6px; }
     #dashtodockContainer.right.extended.shrink #dash #dashtodockDashContainer #dashtodockDashScrollview:last-child {
