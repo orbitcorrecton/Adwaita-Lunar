@@ -2111,7 +2111,8 @@ StScrollBar {
   spacing: 6px;
   padding: 6px; }
   .workspace-thumbnails .workspace-thumbnail {
-    border-radius: 3px; }
+    border-radius: 3px;
+    border-color: transparent; }
   .workspace-thumbnails .placeholder {
     background-image: url("workspace-placeholder.svg");
     background-size: contain;
@@ -2800,7 +2801,6 @@ StScrollBar {
     border-radius: 24px;
     spacing: 6px; }
   #dashtodockContainer.bottom #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     margin: 0 4px;
     width: 1px;
     height: 0;
@@ -2863,7 +2863,6 @@ StScrollBar {
     border-radius: 18px;
     spacing: 2px; }
   #dashtodockContainer.bottom.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     margin: 0 1px;
     width: 1px;
     height: 0;
@@ -2926,7 +2925,6 @@ StScrollBar {
     border-radius: 0;
     spacing: 6px; }
   #dashtodockContainer.bottom.extended #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     margin: 0 4px;
     width: 1px;
     height: 0;
@@ -2997,7 +2995,6 @@ StScrollBar {
     border-radius: 0;
     spacing: 2px; }
   #dashtodockContainer.bottom.extended.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     margin: 0 1px;
     width: 1px;
     height: 0;
@@ -3068,7 +3065,6 @@ StScrollBar {
     border-radius: 24px;
     spacing: 6px; }
   #dashtodockContainer.top #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     margin: 0 4px;
     width: 1px;
     height: 0;
@@ -3131,7 +3127,6 @@ StScrollBar {
     border-radius: 18px;
     spacing: 2px; }
   #dashtodockContainer.top.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     margin: 0 1px;
     width: 1px;
     height: 0;
@@ -3194,7 +3189,6 @@ StScrollBar {
     border-radius: 0;
     spacing: 6px; }
   #dashtodockContainer.top.extended #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     margin: 0 4px;
     width: 1px;
     height: 0;
@@ -3265,7 +3259,6 @@ StScrollBar {
     border-radius: 0;
     spacing: 2px; }
   #dashtodockContainer.top.extended.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     margin: 0 1px;
     width: 1px;
     height: 0;
@@ -3336,7 +3329,6 @@ StScrollBar {
     border-radius: 24px;
     spacing: 6px; }
   #dashtodockContainer.left #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     width: 0;
     height: 1px;
     margin: 4px 0;
@@ -3397,7 +3389,6 @@ StScrollBar {
     border-radius: 18px;
     spacing: 2px; }
   #dashtodockContainer.left.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     width: 0;
     height: 1px;
     margin: 1px 0;
@@ -3458,7 +3449,6 @@ StScrollBar {
     border-radius: 0;
     spacing: 6px; }
   #dashtodockContainer.left.extended #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     width: 0;
     height: 1px;
     margin: 4px 0;
@@ -3527,7 +3517,6 @@ StScrollBar {
     border-radius: 0;
     spacing: 2px; }
   #dashtodockContainer.left.extended.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     width: 0;
     height: 1px;
     margin: 1px 0;
@@ -3596,7 +3585,6 @@ StScrollBar {
     border-radius: 24px;
     spacing: 6px; }
   #dashtodockContainer.right #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     width: 0;
     height: 1px;
     margin: 4px 0;
@@ -3657,7 +3645,6 @@ StScrollBar {
     border-radius: 18px;
     spacing: 2px; }
   #dashtodockContainer.right.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     width: 0;
     height: 1px;
     margin: 1px 0;
@@ -3718,7 +3705,6 @@ StScrollBar {
     border-radius: 0;
     spacing: 6px; }
   #dashtodockContainer.right.extended #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     width: 0;
     height: 1px;
     margin: 4px 0;
@@ -3787,7 +3773,6 @@ StScrollBar {
     border-radius: 0;
     spacing: 2px; }
   #dashtodockContainer.right.extended.shrink #dash .dash-separator {
-    background-color: rgba(255, 255, 255, 0.1);
     width: 0;
     height: 1px;
     margin: 1px 0;
@@ -3964,8 +3949,6 @@ StScrollBar {
   #dashtodockContainer.bottom #dash .dash-background, #dashtodockContainer.bottom.dashtodock #dash .dash-background, #dashtodockContainer.bottom.shrink #dash .dash-background {
     background: rgba(48, 48, 48, 0.75);
     transition-duration: 250ms; }
-  #dashtodockContainer.bottom #dash .dash-separator, #dashtodockContainer.bottom.dashtodock #dash .dash-separator, #dashtodockContainer.bottom.shrink #dash .dash-separator {
-    background: rgba(255, 255, 255, 0.3); }
 
 #dashtodockContainer.bottom.overview #dash .dash-background, #dashtodockContainer.bottom.overview.dashtodock #dash .dash-background, #dashtodockContainer.bottom.overview.shrink #dash .dash-background {
   background-color: transparent; }
@@ -3988,8 +3971,6 @@ StScrollBar {
   #dashtodockContainer.top #dash .dash-background, #dashtodockContainer.top.dashtodock #dash .dash-background, #dashtodockContainer.top.shrink #dash .dash-background {
     background: rgba(48, 48, 48, 0.75);
     transition-duration: 250ms; }
-  #dashtodockContainer.top #dash .dash-separator, #dashtodockContainer.top.dashtodock #dash .dash-separator, #dashtodockContainer.top.shrink #dash .dash-separator {
-    background: rgba(255, 255, 255, 0.3); }
 
 #dashtodockContainer.top.overview #dash .dash-background, #dashtodockContainer.top.overview.dashtodock #dash .dash-background, #dashtodockContainer.top.overview.shrink #dash .dash-background {
   background-color: transparent; }
@@ -4012,8 +3993,6 @@ StScrollBar {
   #dashtodockContainer.left #dash .dash-background, #dashtodockContainer.left.dashtodock #dash .dash-background, #dashtodockContainer.left.shrink #dash .dash-background {
     background: rgba(48, 48, 48, 0.75);
     transition-duration: 250ms; }
-  #dashtodockContainer.left #dash .dash-separator, #dashtodockContainer.left.dashtodock #dash .dash-separator, #dashtodockContainer.left.shrink #dash .dash-separator {
-    background: rgba(255, 255, 255, 0.3); }
 
 #dashtodockContainer.left.overview #dash .dash-background, #dashtodockContainer.left.overview.dashtodock #dash .dash-background, #dashtodockContainer.left.overview.shrink #dash .dash-background {
   background-color: transparent; }
@@ -4036,8 +4015,6 @@ StScrollBar {
   #dashtodockContainer.right #dash .dash-background, #dashtodockContainer.right.dashtodock #dash .dash-background, #dashtodockContainer.right.shrink #dash .dash-background {
     background: rgba(48, 48, 48, 0.75);
     transition-duration: 250ms; }
-  #dashtodockContainer.right #dash .dash-separator, #dashtodockContainer.right.dashtodock #dash .dash-separator, #dashtodockContainer.right.shrink #dash .dash-separator {
-    background: rgba(255, 255, 255, 0.3); }
 
 #dashtodockContainer.right.overview #dash .dash-background, #dashtodockContainer.right.overview.dashtodock #dash .dash-background, #dashtodockContainer.right.overview.shrink #dash .dash-background {
   background-color: transparent; }
