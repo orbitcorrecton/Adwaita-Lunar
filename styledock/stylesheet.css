@@ -1,3 +1,7 @@
+/* Default Ubuntu Dock styling, append !important to any changed rules
+   This must be in sync with
+   - https://github.com/micheleg/dash-to-dock/blob/ubuntu-dock/_stylesheet.scss
+ */
 #dashtodockContainer.bottom #dash {
   margin: 0px;
   padding: 0px; }
@@ -261,13 +265,6 @@
   margin-bottom: 3px;
   -x-offset: 0;
   -y-offset: 0; }
-
-.dashtodock-app-well-preview-menu-item.bottom {
-  padding: 0.5em 0.5em; }
-  .dashtodock-app-well-preview-menu-item.bottom:ltr:first-child, .dashtodock-app-well-preview-menu-item.bottom:rtl:last-child {
-    padding-left: 1em; }
-  .dashtodock-app-well-preview-menu-item.bottom:ltr:last-child, .dashtodock-app-well-preview-menu-item.bottom:rtl:first-child {
-    padding-right: 1em; }
 
 #dashtodockContainer.top #dash {
   margin: 0px;
@@ -533,13 +530,6 @@
   -x-offset: 0;
   -y-offset: 0; }
 
-.dashtodock-app-well-preview-menu-item.top {
-  padding: 0.5em 0.5em; }
-  .dashtodock-app-well-preview-menu-item.top:ltr:first-child, .dashtodock-app-well-preview-menu-item.top:rtl:last-child {
-    padding-left: 1em; }
-  .dashtodock-app-well-preview-menu-item.top:ltr:last-child, .dashtodock-app-well-preview-menu-item.top:rtl:first-child {
-    padding-right: 1em; }
-
 #dashtodockContainer.left #dash {
   margin: 0px;
   padding: 0px; }
@@ -795,13 +785,6 @@
   margin: 0;
   -x-offset: 3px;
   -y-offset: 0; }
-
-.dashtodock-app-well-preview-menu-item.left {
-  padding: 0.5em 0.5em; }
-  .dashtodock-app-well-preview-menu-item.left:first-child {
-    padding-top: 1em; }
-  .dashtodock-app-well-preview-menu-item.left:last-child {
-    padding-bottom: 1em; }
 
 #dashtodockContainer.right #dash {
   margin: 0px;
@@ -1059,13 +1042,6 @@
   -x-offset: 3px;
   -y-offset: 0; }
 
-.dashtodock-app-well-preview-menu-item.right {
-  padding: 0.5em 0.5em; }
-  .dashtodock-app-well-preview-menu-item.right:first-child {
-    padding-top: 1em; }
-  .dashtodock-app-well-preview-menu-item.right:last-child {
-    padding-bottom: 1em; }
-
 #dashtodockContainer.top.shrink #dash .dash-background {
   margin-top: 4px;
   margin-bottom: 0; }
@@ -1135,6 +1111,9 @@
   border-right-width: 1px;
   margin: 32px 0px; }
 
+.dashtodock-app-well-preview-menu-item {
+  padding: 1em 1em 0.5em 1em; }
+
 #dashtodockContainer .metro .overview-icon {
   border-radius: 0px; }
 
@@ -1173,3 +1152,68 @@
   background-image: url("./media/highlight_stacked_bg_h.svg");
   background-position: 0px 0px;
   background-size: contain; }
+
+/* Yaru Dock styling */
+#dashtodockContainer.bottom #dash, #dashtodockContainer.bottom.dashtodock #dash, #dashtodockContainer.bottom.shrink #dash {
+  margin: 0px;
+  padding: 0px; }
+  #dashtodockContainer.bottom #dash .dash-background, #dashtodockContainer.bottom.dashtodock #dash .dash-background, #dashtodockContainer.bottom.shrink #dash .dash-background {
+    transition-duration: 250ms; }
+
+#dashtodockContainer.bottom.overview #dash .dash-background, #dashtodockContainer.bottom.overview.dashtodock #dash .dash-background, #dashtodockContainer.bottom.overview.shrink #dash .dash-background {
+  background-color: transparent; }
+
+#dashtodockContainer.bottom.extended #dash .dash-background, #dashtodockContainer.bottom.extended.dashtodock #dash .dash-background, #dashtodockContainer.bottom.extended.shrink #dash .dash-background {
+  border: none;
+  box-shadow: none; }
+
+#dashtodockContainer.bottom .dash-item-container .show-apps, #dashtodockContainer.bottom .dash-item-container .app-well-app {
+  border-radius: 24px; }
+
+#dashtodockContainer.top #dash, #dashtodockContainer.top.dashtodock #dash, #dashtodockContainer.top.shrink #dash {
+  margin: 0px;
+  padding: 0px; }
+  #dashtodockContainer.top #dash .dash-background, #dashtodockContainer.top.dashtodock #dash .dash-background, #dashtodockContainer.top.shrink #dash .dash-background {
+    transition-duration: 250ms; }
+
+#dashtodockContainer.top.overview #dash .dash-background, #dashtodockContainer.top.overview.dashtodock #dash .dash-background, #dashtodockContainer.top.overview.shrink #dash .dash-background {
+  background-color: transparent; }
+
+#dashtodockContainer.top.extended #dash .dash-background, #dashtodockContainer.top.extended.dashtodock #dash .dash-background, #dashtodockContainer.top.extended.shrink #dash .dash-background {
+  border: none;
+  box-shadow: none; }
+
+#dashtodockContainer.top .dash-item-container .show-apps, #dashtodockContainer.top .dash-item-container .app-well-app {
+  border-radius: 24px; }
+
+#dashtodockContainer.left #dash, #dashtodockContainer.left.dashtodock #dash, #dashtodockContainer.left.shrink #dash {
+  margin: 0px;
+  padding: 0px; }
+  #dashtodockContainer.left #dash .dash-background, #dashtodockContainer.left.dashtodock #dash .dash-background, #dashtodockContainer.left.shrink #dash .dash-background {
+    transition-duration: 250ms; }
+
+#dashtodockContainer.left.overview #dash .dash-background, #dashtodockContainer.left.overview.dashtodock #dash .dash-background, #dashtodockContainer.left.overview.shrink #dash .dash-background {
+  background-color: transparent; }
+
+#dashtodockContainer.left.extended #dash .dash-background, #dashtodockContainer.left.extended.dashtodock #dash .dash-background, #dashtodockContainer.left.extended.shrink #dash .dash-background {
+  border: none;
+  box-shadow: none; }
+
+#dashtodockContainer.left .dash-item-container .show-apps, #dashtodockContainer.left .dash-item-container .app-well-app {
+  border-radius: 24px; }
+
+#dashtodockContainer.right #dash, #dashtodockContainer.right.dashtodock #dash, #dashtodockContainer.right.shrink #dash {
+  margin: 0px;
+  padding: 0px; }
+  #dashtodockContainer.right #dash .dash-background, #dashtodockContainer.right.dashtodock #dash .dash-background, #dashtodockContainer.right.shrink #dash .dash-background {
+    transition-duration: 250ms; }
+
+#dashtodockContainer.right.overview #dash .dash-background, #dashtodockContainer.right.overview.dashtodock #dash .dash-background, #dashtodockContainer.right.overview.shrink #dash .dash-background {
+  background-color: transparent; }
+
+#dashtodockContainer.right.extended #dash .dash-background, #dashtodockContainer.right.extended.dashtodock #dash .dash-background, #dashtodockContainer.right.extended.shrink #dash .dash-background {
+  border: none;
+  box-shadow: none; }
+
+#dashtodockContainer.right .dash-item-container .show-apps, #dashtodockContainer.right .dash-item-container .app-well-app {
+  border-radius: 24px; }
