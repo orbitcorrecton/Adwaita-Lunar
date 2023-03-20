@@ -1932,7 +1932,7 @@ StScrollBar {
 .dash-separator {
   width: 1px;
   margin: 0 4px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
   margin-bottom: 12px; }
 
 .dash-label {
@@ -2064,7 +2064,7 @@ StScrollBar {
     .app-folder-dialog .page-indicators .page-indicator-icon {
       background-color: #dad6d2; }
   .app-folder-dialog .app-well-app-running-dot {
-    background-color: rgba(0, 0, 0, 0.8); }
+    background-color: #3584e4; }
   .app-folder-dialog .page-navigation-arrow > StIcon {
     margin: 6px;
     padding: 18px;
