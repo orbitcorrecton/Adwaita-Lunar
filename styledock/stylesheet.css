@@ -1,3 +1,8 @@
+
+.search-entry {
+  margin-top: 24px;
+  margin-bottom: 12px; }
+
 /* Default Ubuntu Dock styling, append !important to any changed rules
    This must be in sync with
    - https://github.com/micheleg/dash-to-dock/blob/ubuntu-dock/_stylesheet.scss
