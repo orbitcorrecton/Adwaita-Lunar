@@ -1222,3 +1222,15 @@
 
 #dashtodockContainer.right .dash-item-container .show-apps, #dashtodockContainer.right .dash-item-container .app-well-app {
   border-radius: 24px; }
+
+/* Dash */
+.dash-background {
+  border-color: transparent; }
+
+/* Entries */
+StEntry {
+  box-shadow: none; }
+
+/* Workspace pager */
+.workspace-thumbnails .workspace-thumbnail {
+  border-color: transparent; }
