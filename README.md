@@ -3,9 +3,11 @@
 Themes are based on Adwaita and yaru shell theme  
 https://github.com/GNOME/gnome-shell  
 https://github.com/ubuntu/yaru  
-  
-Extension is based on Dash to Dock and yaru shell theme.  
-https://github.com/micheleg/dash-to-dock  
+   
+*experimenal branch   
+Admission is a gnome-shell extension based on Dash to Dock, Adwaita, and yaru shell theme.  
+https://github.com/micheleg/dash-to-dock 
+https://github.com/GNOME/gnome-shell  
 https://github.com/ubuntu/yaru  
   
-If you want to improve the margin in Dock, install styledock extension in experimental.
+It adopts various themes to Ubuntu.
