@@ -1,0 +1,8 @@
+{
+  "name": "Admission",
+  "description": "based on Ubuntu yaru and GNOME Adwaita. It can override gnome-shell.css",
+  "uuid": "admission",
+  "shell-version": [
+    "40", "41", "42", "43"
+  ]
+}
