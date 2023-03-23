@@ -365,16 +365,16 @@ StEntry {
 .check-box StBin {
   width: 24px;
   height: 24px;
-  background-image: url("resource:///org/gnome/shell/theme/checkbox-off-light.svg"); }
+  background-image: url("checkbox-off-light.svg"); }
 
 .check-box:focus StBin {
-  background-image: url("resource:///org/gnome/shell/theme/checkbox-off-focused-light.svg"); }
+  background-image: url("checkbox-off-focused-light.svg"); }
 
 .check-box:checked StBin {
-  background-image: url("resource:///org/gnome/shell/theme/checkbox.svg"); }
+  background-image: url("checkbox.svg"); }
 
 .check-box:focus:checked StBin {
-  background-image: url("resource:///org/gnome/shell/theme/checkbox-focused.svg"); }
+  background-image: url("checkbox-focused.svg"); }
 
 /* Switches */
 .toggle-switch {
@@ -382,9 +382,9 @@ StEntry {
   height: 26px;
   width: 48px;
   background-size: contain;
-  background-image: url("resource:///org/gnome/shell/theme/toggle-off-light.svg"); }
+  background-image: url("toggle-off-light.svg"); }
   .toggle-switch:checked {
-    background-image: url("resource:///org/gnome/shell/theme/toggle-on-light.svg"); }
+    background-image: url("toggle-on-light.svg"); }
 
 /* Slider */
 .slider {
@@ -400,7 +400,8 @@ StEntry {
   -slider-handle-radius: 8px;
   -slider-handle-border-width: 1px;
   -slider-handle-border-color: white;
-  height: 18px; }
+  height: 18px;
+  color: white; }
 
 /* Scrollbars */
 StScrollView.vfade {
@@ -606,6 +607,8 @@ StScrollBar {
     background-color: rgba(224, 224, 224, 0.98);
     box-shadow: inset 0 0 0 1px rgba(15, 15, 15, 0);
     background-color: rgba(206, 206, 206, 0.098); }
+  .datemenu-today-button:insensitive .day-label, .datemenu-today-button:insensitive .date-label {
+    color: rgba(153, 153, 153, 0.9); }
 
 /* Calendar */
 .calendar {
@@ -676,7 +679,6 @@ StScrollBar {
       background-color: #ebebeb; }
     .calendar .calendar-day-base:focus {
       background-color: #d7e6fa;
-      color: #ffffff;
       box-shadow: inset 0 0 0 2px rgba(53, 132, 228, 0.6); }
     .calendar .calendar-day-base:active, .calendar .calendar-day-base:selected {
       color: rgba(0, 0, 0, 0.8);
@@ -708,7 +710,7 @@ StScrollBar {
         background-color: #428ce6;
         color: inherit; }
   .calendar .calendar-day-with-events {
-    background-image: url("resource:///org/gnome/shell/theme/calendar-today-light.svg");
+    background-image: url("calendar-today-light.svg");
     background-size: contain; }
   .calendar .calendar-week-number {
     font-size: 7pt;
@@ -1234,7 +1236,7 @@ StScrollBar {
 
 /* Welcome dialog */
 .welcome-dialog-image {
-  background-image: url("resource:///org/gnome/shell/theme/gnome-shell-start.svg");
+  background-image: url("gnome-shell-start.svg");
   background-size: contain;
   /* Reasonable maximum dimensions */
   height: 300px;
@@ -1525,7 +1527,7 @@ StScrollBar {
   #panel.unlock-screen, #panel.login-screen, #panel:overview {
     background-color: transparent; }
   #panel .panel-button {
-    font-weight: bold;
+    font-weight: normal;
     color: white;
     -natural-hpadding: 12px;
     -minimum-hpadding: 6px;
@@ -1711,7 +1713,7 @@ StScrollBar {
   padding-left: 0; }
 
 .quick-menu-toggle .quick-toggle-arrow {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.05);
   padding: 6px 10.5px; }
   .quick-menu-toggle .quick-toggle-arrow:ltr {
     border-radius: 0 99px 99px 0; }
@@ -1985,7 +1987,8 @@ StScrollBar {
     background-color: rgba(53, 132, 228, 0.2); }
 
 .dash-item-container .show-apps, .dash-item-container .app-well-app, .dash-item-container .grid-search-result {
-  padding-bottom: 12px; }
+  padding-bottom: 12px;
+  color: white; }
 
 .dash-separator {
   width: 1px;
@@ -2039,7 +2042,8 @@ StScrollBar {
   .app-well-app .overview-icon, .grid-search-result .overview-icon {
     padding: 12px; }
   .app-well-app .overview-icon.overview-icon-with-label > StBoxLayout, .grid-search-result .overview-icon.overview-icon-with-label > StBoxLayout {
-    spacing: 6px; }
+    spacing: 6px;
+    color: white; }
 
 .app-well-app.app-folder, .app-folder.grid-search-result {
   transition-duration: 400ms; }
@@ -2205,7 +2209,8 @@ StScrollBar {
   padding: 18px;
   width: 24px;
   height: 24px;
-  border-radius: 99px; }
+  border-radius: 99px;
+  color: white; }
 
 .page-navigation-arrow:insensitive > StIcon {
   transition-duration: 100ms;
@@ -2242,7 +2247,7 @@ StScrollBar {
   .workspace-thumbnails .workspace-thumbnail {
     border-radius: 3px; }
   .workspace-thumbnails .placeholder {
-    background-image: url("resource:///org/gnome/shell/theme/workspace-placeholder.svg");
+    background-image: url("workspace-placeholder.svg");
     background-size: contain;
     width: 18px; }
 
@@ -2936,9 +2941,9 @@ stage {
   width: 48px; }
 
 .toggle-switch {
-  background-image: url("resource:///org/gnome/shell/theme/toggle-off-hc.svg"); }
+  background-image: url("toggle-off-hc.svg"); }
   .toggle-switch:checked {
-    background-image: url("resource:///org/gnome/shell/theme/toggle-on-hc.svg"); }
+    background-image: url("toggle-on-hc.svg"); }
 
 #panel.login-screen, #panel.unlock-screen, #panel:overview {
   background-color: #000; }
