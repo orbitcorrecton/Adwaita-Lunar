@@ -449,7 +449,7 @@ $panel_transition_duration: 250ms; // same as the overview transition duration
             &.dashtodock #dash,
             &.shrink #dash {
                 .dash-background {
-                    background-color: transparent; //$dock_color;
+                    //background-color: transparent; //$dock_color;
                 }
             }
         }
