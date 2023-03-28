@@ -1802,8 +1802,9 @@ StScrollBar {
 .search-section {
   spacing: 18px; }
   .search-section .search-section-separator {
-    height: 8px;
-    background-color: transparent; }
+    height: 1px;
+    margin: 4px 256px;
+    background-color: rgba(255, 255, 255, 0.3); }
 
 .search-section-content {
   background-color: rgba(255, 255, 255, 0);
@@ -1865,7 +1866,7 @@ StScrollBar {
   spacing: 12px; }
 
 .list-search-result .list-search-result-description {
-  color: rgba(189, 189, 189, 0.8); }
+  color: rgba(211, 211, 211, 0.8); }
 
 /* Dash */
 #dash {
