@@ -1871,7 +1871,7 @@ StScrollBar {
   spacing: 18px; }
   .search-section .search-section-separator {
     height: 1px;
-    margin: 4px 256px;
+    margin: 4px 304px;
     background-color: rgba(255, 255, 255, 0.5); }
 
 .search-section-content {
