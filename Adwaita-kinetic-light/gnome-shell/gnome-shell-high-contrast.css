@@ -1528,7 +1528,7 @@ StScrollBar {
   #panel.unlock-screen, #panel.login-screen, #panel:overview {
     background-color: transparent; }
   #panel .panel-button {
-    font-weight: nomal;
+    font-weight: normal;
     color: rgba(0, 0, 0, 0.8);
     -natural-hpadding: 12px;
     -minimum-hpadding: 6px;
