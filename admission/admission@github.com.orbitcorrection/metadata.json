@@ -1,9 +1,0 @@
-{
-  "name": "Admission",
-  "description": "based on Ubuntu yaru, GNOME Adwaita and Dash to Dock  This can override gnome-shell.css",
-  "uuid": "admission@github.com.orbitcorrection",
-  "shell-version": [
-    "40", "41", "42", "43"
-  ],
-  "url": "https://github.com/orbitcorrecton/Adwaita-kinetic/tree/experimental/admission"
-}
