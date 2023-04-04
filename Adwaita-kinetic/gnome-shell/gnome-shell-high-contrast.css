@@ -1868,7 +1868,7 @@ StScrollBar {
   .search-section .search-section-separator {
     height: 1px;
     margin: 4px 304px;
-    background-color: rgba(255, 255, 255, 0.4); }
+    background-color: rgba(255, 255, 255, 0.5); }
 
 .search-section-content {
   background-color: rgba(255, 255, 255, 0);
@@ -2129,7 +2129,7 @@ StScrollBar {
     .app-folder-dialog .page-indicators .page-indicator-icon {
       background-color: #c7c7c7; }
   .app-folder-dialog .app-well-app-running-dot {
-    background-color: rgba(0, 0, 0, 0.6); }
+    background-color: rgba(0, 0, 0, 0.7); }
   .app-folder-dialog .page-navigation-arrow > StIcon {
     color: rgba(0, 0, 0, 0.8); }
   .app-folder-dialog .page-navigation-arrow:insensitive > StIcon {
