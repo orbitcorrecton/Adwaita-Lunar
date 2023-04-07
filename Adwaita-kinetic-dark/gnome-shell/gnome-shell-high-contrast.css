@@ -450,7 +450,8 @@ StScrollBar {
   border-radius: 12px;
   spacing: 6px;
   transition-duration: 100ms;
-  background-color: transparent; }
+  background-color: transparent;
+  color: white !important; }
   .popup-menu-item:ltr {
     padding-left: 6px; }
   .popup-menu-item:rtl {
@@ -1067,6 +1068,7 @@ StScrollBar {
   width: 34em;
   box-shadow: 0 2px 4px 2px transparent;
   border-radius: 12px;
+  border-color: transparent;
   margin: 4px; }
   .notification-banner .notification-actions {
     spacing: 0; }
@@ -4007,7 +4009,7 @@ StScrollBar {
     transition-duration: 250ms; }
 
 #dashtodockContainer.bottom.overview #dash .dash-background, #dashtodockContainer.bottom.overview.dashtodock #dash .dash-background, #dashtodockContainer.bottom.overview.shrink #dash .dash-background {
-  background-color: transparent; }
+  background-color: #383838; }
 
 #dashtodockContainer.bottom.extended #dash .dash-background, #dashtodockContainer.bottom.extended.dashtodock #dash .dash-background, #dashtodockContainer.bottom.extended.shrink #dash .dash-background {
   border: none; }
@@ -4023,7 +4025,7 @@ StScrollBar {
     transition-duration: 250ms; }
 
 #dashtodockContainer.top.overview #dash .dash-background, #dashtodockContainer.top.overview.dashtodock #dash .dash-background, #dashtodockContainer.top.overview.shrink #dash .dash-background {
-  background-color: transparent; }
+  background-color: #383838; }
 
 #dashtodockContainer.top.extended #dash .dash-background, #dashtodockContainer.top.extended.dashtodock #dash .dash-background, #dashtodockContainer.top.extended.shrink #dash .dash-background {
   border: none; }
@@ -4039,7 +4041,7 @@ StScrollBar {
     transition-duration: 250ms; }
 
 #dashtodockContainer.left.overview #dash .dash-background, #dashtodockContainer.left.overview.dashtodock #dash .dash-background, #dashtodockContainer.left.overview.shrink #dash .dash-background {
-  background-color: transparent; }
+  background-color: #383838; }
 
 #dashtodockContainer.left.extended #dash .dash-background, #dashtodockContainer.left.extended.dashtodock #dash .dash-background, #dashtodockContainer.left.extended.shrink #dash .dash-background {
   border: none; }
@@ -4055,7 +4057,7 @@ StScrollBar {
     transition-duration: 250ms; }
 
 #dashtodockContainer.right.overview #dash .dash-background, #dashtodockContainer.right.overview.dashtodock #dash .dash-background, #dashtodockContainer.right.overview.shrink #dash .dash-background {
-  background-color: transparent; }
+  background-color: #383838; }
 
 #dashtodockContainer.right.extended #dash .dash-background, #dashtodockContainer.right.extended.dashtodock #dash .dash-background, #dashtodockContainer.right.extended.shrink #dash .dash-background {
   border: none; }
