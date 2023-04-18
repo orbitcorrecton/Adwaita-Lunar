@@ -286,7 +286,6 @@ StEntry {
   border-radius: 8px;
   padding: 8px;
   color: white;
-  box-shadow: none;
   background-color: #3c3c3c;
   color: rgba(255, 255, 255, 0.7);
   border: 2px solid #3c3c3c;
@@ -418,8 +417,7 @@ StScrollBar {
   border-radius: 12px;
   spacing: 6px;
   transition-duration: 100ms;
-  background-color: transparent;
-  color: white !important; }
+  background-color: transparent; }
   .popup-menu-item:ltr {
     padding-left: 6px; }
   .popup-menu-item:rtl {
@@ -1006,7 +1004,6 @@ StScrollBar {
   width: 34em;
   box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
-  border-color: transparent;
   margin: 4px; }
   .notification-banner .notification-actions {
     spacing: 0; }
@@ -1760,8 +1757,8 @@ StScrollBar {
 
 .search-entry {
   border-radius: 18px;
-  margin-top: 24px;
-  margin-bottom: 12px;
+  margin-top: 12px;
+  margin-bottom: 6px;
   padding: 7px 9px;
   width: 320px;
   background-color: #3c3c3c;
@@ -1799,7 +1796,7 @@ StScrollBar {
 .search-section {
   spacing: 18px; }
   .search-section .search-section-separator {
-    height: 9px;
+    height: 8px;
     background-color: transparent; }
 
 .search-section-content {
@@ -1877,7 +1874,6 @@ StScrollBar {
 .dash-background {
   background-color: #303030;
   border-radius: 28px;
-  border-color: transparent;
   padding: 12px;
   spacing: 6px;
   margin-bottom: 12px; }
@@ -2093,8 +2089,7 @@ StScrollBar {
   spacing: 6px;
   padding: 6px; }
   .workspace-thumbnails .workspace-thumbnail {
-    border-radius: 3px;
-    border-color: transparent; }
+    border-radius: 3px; }
   .workspace-thumbnails .placeholder {
     background-image: url("workspace-placeholder.svg");
     background-size: contain;
@@ -2690,7 +2685,8 @@ StScrollBar {
 
 .unlock-dialog StEntry {
   border: none !important; }
-  .unlock-dialog StEntry:focus {
+  .unlock-dialog StEntry, .unlock-dialog StEntry:focus {
+    color: white;
     background-color: rgba(255, 255, 255, 0.1); }
   .unlock-dialog StEntry:insensitive {
     color: rgba(255, 255, 255, 0.5);
@@ -2701,6 +2697,13 @@ StScrollBar {
 .unlock-dialog .login-dialog-session-list-button {
   border-color: transparent;
   background-color: rgba(255, 255, 255, 0.1); }
+  .unlock-dialog .cancel-button:hover, .unlock-dialog .cancel-button:active,
+  .unlock-dialog .switch-user-button:hover,
+  .unlock-dialog .switch-user-button:active,
+  .unlock-dialog .login-dialog-session-list-button:hover,
+  .unlock-dialog .login-dialog-session-list-button:active {
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.2); }
 
 /* Screen Shield */
 .unlock-dialog-clock {
@@ -2768,6 +2771,24 @@ StScrollBar {
     background-color: rgba(48, 48, 48, 0.5); }
   #unlockDialogNotifications StButton#vhandle:active, #unlockDialogNotifications StButton#hhandle:active {
     background-color: rgba(53, 132, 228, 0.5); }
+
+/* WIDGETS */
+/* Entries */
+StEntry {
+  box-shadow: none; }
+
+
+.search-entry {
+  margin-top: 24px;
+  margin-bottom: 12px; }
+
+/* Dash */
+.dash-background {
+  border-color: transparent; }
+
+/* Workspace pager */
+.workspace-thumbnails .workspace-thumbnail {
+  border-color: transparent; }
 
 /* Default Ubuntu Dock styling, append !important to any changed rules
    This must be in sync with
@@ -3933,7 +3954,7 @@ StScrollBar {
     transition-duration: 250ms; }
 
 #dashtodockContainer.bottom.overview #dash .dash-background, #dashtodockContainer.bottom.overview.dashtodock #dash .dash-background, #dashtodockContainer.bottom.overview.shrink #dash .dash-background {
-  background-color: #303030; }
+  background-color: transparent; }
 
 #dashtodockContainer.bottom.extended #dash .dash-background, #dashtodockContainer.bottom.extended.dashtodock #dash .dash-background, #dashtodockContainer.bottom.extended.shrink #dash .dash-background {
   border: none; }
@@ -3949,7 +3970,7 @@ StScrollBar {
     transition-duration: 250ms; }
 
 #dashtodockContainer.top.overview #dash .dash-background, #dashtodockContainer.top.overview.dashtodock #dash .dash-background, #dashtodockContainer.top.overview.shrink #dash .dash-background {
-  background-color: #303030; }
+  background-color: transparent; }
 
 #dashtodockContainer.top.extended #dash .dash-background, #dashtodockContainer.top.extended.dashtodock #dash .dash-background, #dashtodockContainer.top.extended.shrink #dash .dash-background {
   border: none; }
@@ -3965,7 +3986,7 @@ StScrollBar {
     transition-duration: 250ms; }
 
 #dashtodockContainer.left.overview #dash .dash-background, #dashtodockContainer.left.overview.dashtodock #dash .dash-background, #dashtodockContainer.left.overview.shrink #dash .dash-background {
-  background-color: #303030; }
+  background-color: transparent; }
 
 #dashtodockContainer.left.extended #dash .dash-background, #dashtodockContainer.left.extended.dashtodock #dash .dash-background, #dashtodockContainer.left.extended.shrink #dash .dash-background {
   border: none; }
@@ -3981,7 +4002,7 @@ StScrollBar {
     transition-duration: 250ms; }
 
 #dashtodockContainer.right.overview #dash .dash-background, #dashtodockContainer.right.overview.dashtodock #dash .dash-background, #dashtodockContainer.right.overview.shrink #dash .dash-background {
-  background-color: #303030; }
+  background-color: transparent; }
 
 #dashtodockContainer.right.extended #dash .dash-background, #dashtodockContainer.right.extended.dashtodock #dash .dash-background, #dashtodockContainer.right.extended.shrink #dash .dash-background {
   border: none; }
