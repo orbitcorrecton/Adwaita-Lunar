@@ -457,6 +457,7 @@ StScrollBar {
   .popup-menu-item:focus, .popup-menu-item:hover {
     background-color: #333333 !important; }
     .popup-menu-item:focus:active, .popup-menu-item:hover:active {
+      color: white !important;
       background-color: #383838 !important; }
   .popup-menu-item:checked {
     background-color: #2e2e2e !important; }
@@ -1066,7 +1067,8 @@ StScrollBar {
   width: 34em;
   box-shadow: 0 2px 4px 2px transparent;
   border-radius: 12px;
-  margin: 4px; }
+  margin: 4px;
+  border-color: transparent; }
   .notification-banner .notification-actions {
     spacing: 0; }
 
