@@ -1543,7 +1543,7 @@ StScrollBar {
 
 /* Top Bar */
 #panel {
-  background-color: #e6e6e6;
+  background-color: rgba(226, 226, 226, 0.996);
   font-weight: bold;
   height: 2.2em;
   transition-duration: 250ms; }
